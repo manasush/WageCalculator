@@ -1,0 +1,105 @@
+body {
+    height: 100vh;
+    background: radial-gradient(ellipse at bottom, #137ffa 0%, #04febf 100%);
+    overflow: hidden;
+    font-family: "Audiowide", sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    background: rgba(75, 75, 250, 0.3);
+    border-radius: 3px;
+}
+
+.center h1 {
+    text-align: center;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    transition: color 0.5s ease;
+}
+
+.input-section {
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+input[type="number"] {
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: "Audiowide", sans-serif;
+    padding: 10px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+button {
+    background-color: transparent;
+    font-family: "Audiowide", sans-serif;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    /* Adjust the padding as needed */
+}
+
+input:hover {
+    background: linear-gradient(45deg, #2c2ffe, #8205ff);
+    color: aliceblue;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+button:gradient {
+    background: linear-gradient(180deg, #ff7147, #e0417f);
+    padding: 0.5rem 1.5rem;
+    transition: all 0.1s ease-out;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border-radius: 100px;
+    transform: scale(1);
+    margin: 0 0 2rem 1rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #2c2ffe, #8205ff);
+    transform: scale(1.1);
+    color: white;
+}

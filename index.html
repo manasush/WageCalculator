@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wage Calculator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <h1>Wage Calculator</h1>
+
+    <div class="input-section">
+        <label for="yearly-wage">Yearly Wage ($):</label>
+        <input type="number" id="yearly-wage" />
+    </div>
+
+    <div class="input-section">
+        <label for="hourly-pay">Hourly Pay ($):</label>
+        <input type="number" id="hourly-pay" />
+    </div>
+
+    <button onclick="calculateHourlyPay()">Calculate Hourly Pay</button>
+    <br />
+    <button onclick="calculateYearlyWage()">Calculate Yearly Wage</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
